@@ -6,52 +6,82 @@
 
 ## 🚀 Overview
 
-This React-powered weather app delivers real-time weather updates for cities around the globe. Designed with simplicity and responsiveness in mind, it offers a smooth and intuitive user experience across all devices.
+This React-powered weather app delivers real-time weather updates for cities worldwide with a clean, responsive, and intuitive interface.
 
 ---
 
 ## 🖼️ Preview
 
 <!-- Add project screenshot here -->
+<img width="1919" height="929" alt="image" src="https://github.com/user-attachments/assets/05a73ca9-e7fe-4611-9ee4-3bbc28f21b75" />
 
-```md
-![Weather App Preview](./preview.png)
+## ✨ Features
+
+### 🌤️ Core Capabilities Flow
+
+```text
+🔍 Search City
+      │
+      ▼
+🌡️ Fetch Weather Data
+      │
+      ▼
+📊 Display Metrics
+      │
+      ▼
+📍 Show Location
+      │
+      ▼
+🌥️ Render Weather Icons
 ```
 
 ---
 
-## ✨ Features
+### 🎨 User Experience Flow
 
-### 🌤️ Core Capabilities
+```text
+👋 Welcome Screen
+      │
+      ▼
+⌨️ Input Validation
+      │
+      ▼
+⏳ Loading Indicator
+      │
+      ▼
+✅ Show Results
+      │
+      ▼
+❌ Error Handling (if needed)
+```
 
-* **City Search** — Quickly find weather by city name
-* **Live Updates** — Get real-time weather data
-* **Temperature Info** — Current and feels-like readings
-* **Detailed Metrics** — Humidity, wind speed, and pressure
-* **Weather Icons** — Visual cues for conditions
-* **Location Display** — Shows city and country
+---
 
-### 🎨 User Experience
+### 📱 Responsive Design Flow
 
-* **Loading Indicator** — Visual feedback during data fetch
-* **Error Messages** — Clear and helpful alerts
-* **Input Validation** — Prevents invalid searches
-* **Welcome Screen** — Friendly introduction for users
-* **Accessibility** — Keyboard navigation and screen reader support
-
-### 📱 Responsive Design
-
-* **Mobile** — Compact and touch-friendly layout
-* **Tablet** — Balanced spacing and readability
-* **Desktop** — Expanded layout for larger screens
+```text
+📱 Mobile
+   │
+   ▼
+📲 Tablet
+   │
+   ▼
+💻 Desktop
+```
 
 ---
 
 ## 🛠️ Tech Stack
 
-* **React.js** — Frontend framework
-* **CSS3** — Styling and layout
-* **OpenWeatherMap API** — Weather data source
+```text
+⚛️ React.js
+   │
+   ▼
+🎨 CSS3
+   │
+   ▼
+🌐 OpenWeatherMap API
+```
 
 ---
 
@@ -76,16 +106,16 @@ REACT_APP_WEATHER_API_KEY=your_api_key
 
 ```text
 Weather-App/
-├── src/
-│   ├── components/
-│   ├── styles/
-│   ├── utils/
-│   ├── App.js
-│   └── index.js
-├── public/
-├── .env.example
-├── package.json
-└── README.md
+├── 📁 src/
+│   ├── 📁 components/
+│   ├── 📁 styles/
+│   ├── 📁 utils/
+│   ├── 📄 App.js
+│   └── 📄 index.js
+├── 📁 public/
+├── 📄 .env.example
+├── 📄 package.json
+└── 📄 README.md
 ```
 
 ---
@@ -93,35 +123,27 @@ Weather-App/
 ## 🔄 App Flow
 
 ```text
-        ┌──────────────┐
-        │   Launch App │
-        └──────┬───────┘
+        🌤️ Launch App
                │
                ▼
-        ┌──────────────┐
-        │ Enter City   │
-        └──────┬───────┘
+        🔍 Enter City
                │
                ▼
-        ┌──────────────┐
-        │ Validate Input│
-        └──────┬───────┘
+        ✅ Validate Input
                │
                ▼
-        ┌──────────────┐
-        │ Fetch Data   │
+        🌐 Fetch Data
+               │
+        ┌──────▼───────┐
+        │ 📊 Show Results │
         └──────┬───────┘
                │
         ┌──────▼───────┐
-        │ Show Results │
+        │ ❌ Error Check │
         └──────┬───────┘
                │
         ┌──────▼───────┐
-        │ Error Check  │
-        └──────┬───────┘
-               │
-        ┌──────▼───────┐
-        │ Display Error│
+        │ ⚠️ Display Error │
         └──────────────┘
 ```
 
@@ -129,12 +151,14 @@ Weather-App/
 
 ## 🌟 Future Enhancements
 
-* 5-Day Forecast
-* Hourly Updates
-* Dark Mode
-* Auto Location Detection
-* Favorite Cities
-* Multi-language Support
+```text
+📅 5-Day Forecast
+⏰ Hourly Updates
+🌙 Dark Mode
+📍 Auto Location
+⭐ Favorite Cities
+🌍 Multi-language
+```
 
 ---
 
