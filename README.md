@@ -12,40 +12,49 @@ A modern React-based weather application that provides real-time weather informa
 
 ## 🖼️ Preview
 
-<img width="1919" height="929" alt="image" src="https://github.com/user-attachments/assets/c071f131-ba17-4669-a40b-10b7534b25cb" />
+<img width="1919" height="929" alt="image" src="https://github.com/user-attachments/assets/beb2ae44-45f5-4a6a-a2ce-a5e17730f738" />
+
 
 ## ✨ Features
 
 ### 🌤️ Core Features
 
-* Search weather by city
-* Real-time weather data
-* Temperature & feels-like
-* Humidity, wind & pressure
-* Weather icons
-* City & country information
+| Feature         | Description                            |
+| --------------- | -------------------------------------- |
+| City Search     | Search weather by city name            |
+| Real-time Data  | Fetch live weather updates             |
+| Temperature     | Shows current & feels-like temperature |
+| Weather Metrics | Humidity, wind speed, pressure         |
+| Weather Icons   | Visual representation of conditions    |
+| Location Info   | Displays city & country                |
 
 ### 🎨 User Experience
 
-* Loading & error states
-* Input validation
-* Welcome screen
-* Responsive UI
-* Accessibility support
+| Feature          | Description                          |
+| ---------------- | ------------------------------------ |
+| Loading State    | Shows loading indicator during fetch |
+| Error Handling   | Displays user-friendly errors        |
+| Input Validation | Prevents invalid searches            |
+| Welcome Screen   | Intro screen for users               |
+| Accessibility    | Supports keyboard & screen readers   |
 
 ### 📱 Responsive Design
 
-* Mobile
-* Tablet
-* Desktop
+| Device  | Optimization      |
+| ------- | ----------------- |
+| Mobile  | Compact layout    |
+| Tablet  | Balanced spacing  |
+| Desktop | Full-width layout |
 
 ---
 
 ## 🛠️ Tech Stack
 
-* React.js
-* CSS3
-* OpenWeatherMap API
+| Technology         | Purpose            |
+| ------------------ | ------------------ |
+| React.js           | Frontend framework |
+| CSS3               | Styling            |
+| OpenWeatherMap API | Weather data       |
 
 ---
 
@@ -87,34 +96,51 @@ Weather-App/
 ## 🔄 App Flow
 
 ```text
-Open App
-    │
-    ▼
-Search City
-    │
-    ▼
-Validate Input
-    │
-    ▼
-Fetch Weather Data
-    │
-    ▼
-Display Weather
-    │
-    ▼
-Show Error (if any)
+        ┌──────────────┐
+        │   Open App   │
+        └──────┬───────┘
+               │
+               ▼
+        ┌──────────────┐
+        │ Search City  │
+        └──────┬───────┘
+               │
+               ▼
+        ┌──────────────┐
+        │ Validate Input│
+        └──────┬───────┘
+               │
+               ▼
+        ┌──────────────┐
+        │ Fetch Weather│
+        │     Data     │
+        └──────┬───────┘
+               │
+        ┌──────▼───────┐
+        │ Display Data │
+        └──────┬───────┘
+               │
+        ┌──────▼───────┐
+        │ Error?       │
+        └──────┬───────┘
+               │
+        ┌──────▼───────┐
+        │ Show Error   │
+        └──────────────┘
 ```
 
 ---
 
 ## 🌟 Future Enhancements
 
-* 5-Day Forecast
-* Hourly Forecast
-* Dark Mode
-* Auto Location
-* Favorite Cities
-* Multi-language Support
+| Feature         | Description                 |
+| --------------- | --------------------------- |
+| 5-Day Forecast  | Extended weather prediction |
+| Hourly Forecast | Hour-by-hour updates        |
+| Dark Mode       | Theme toggle                |
+| Auto Location   | Detect user location        |
+| Favorite Cities | Save preferred cities       |
+| Multi-language  | Support multiple languages  |
 
 ---
 
