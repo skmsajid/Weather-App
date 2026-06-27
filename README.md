@@ -11,13 +11,7 @@ This React-powered weather application provides real-time weather information fo
 ---
 
 ## 🖼️ Preview
-
-```md
-![Weather App Preview](./preview.png)
-```
-
----
-
+<img width="1919" height="929" alt="Screenshot 2026-06-27 000726" src="https://github.com/user-attachments/assets/4994c2d6-d113-4134-97d8-dd0f32cba4ef" />
 ## ✨ Features
 
 | 🌤️ Core Features            | 🎨 User Experience  | 📱 Responsive Design |
@@ -34,20 +28,37 @@ This React-powered weather application provides real-time weather information fo
 ## 🔄 Application Workflow
 
 ```text
-          🌤️ Weather App
-                 │
-                 ▼
-        🔍 Search City
-                 │
-                 ▼
-        ✅ Validate Input
-                 │
-                 ▼
-     🌐 Fetch Weather Data
-                 │
-        ┌────────┴────────┐
-        ▼                 ▼
-   📊 Display Data     ❌ Show Error
+                🚀 Start
+                   │
+                   ▼
+          🌤️ Open Weather App
+                   │
+                   ▼
+            🔍 Search City
+                   │
+                   ▼
+           ✅ Validate Input
+                   │
+         ┌─────────┴─────────┐
+         │                   │
+         ▼                   ▼
+   ❌ Invalid Input     🌐 Request API
+         │                   │
+         ▼                   ▼
+   Show Validation     Receive Response
+      Message                 │
+                              ▼
+                    ┌─────────┴─────────┐
+                    │                   │
+                    ▼                   ▼
+              📊 Success           ❌ Failure
+                    │                   │
+                    ▼                   ▼
+          Display Weather       Show Error Message
+                    │                   │
+                    └─────────┬─────────┘
+                              ▼
+                          🔍 Search Again
 ```
 
 ---
