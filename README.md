@@ -6,82 +6,59 @@
 
 ## 🚀 Overview
 
-This React-powered weather app delivers real-time weather updates for cities worldwide with a clean, responsive, and intuitive interface.
+This React-powered weather application provides real-time weather information for cities worldwide through a clean, responsive, and user-friendly interface.
 
 ---
 
 ## 🖼️ Preview
 
-<!-- Add project screenshot here -->
-<img width="1919" height="929" alt="image" src="https://github.com/user-attachments/assets/05a73ca9-e7fe-4611-9ee4-3bbc28f21b75" />
+```md
+![Weather App Preview](./preview.png)
+```
+
+---
 
 ## ✨ Features
 
-### 🌤️ Core Capabilities Flow
-
-```text
-🔍 Search City
-      │
-      ▼
-🌡️ Fetch Weather Data
-      │
-      ▼
-📊 Display Metrics
-      │
-      ▼
-📍 Show Location
-      │
-      ▼
-🌥️ Render Weather Icons
-```
+| 🌤️ Core Features            | 🎨 User Experience  | 📱 Responsive Design |
+| ---------------------------- | ------------------- | -------------------- |
+| 🔍 Search by city            | ⚡ Loading state     | 📱 Mobile            |
+| 🌡️ Real-time weather        | ❌ Error handling    | 📲 Tablet            |
+| 🌡️ Temperature & Feels Like | 🎯 Input validation | 💻 Desktop           |
+| 💨 Humidity, Wind & Pressure | 👋 Welcome screen   |                      |
+| 📍 City & Country            | ♿ Accessibility     |                      |
+| 🌥️ Weather icons            | 🎨 Modern UI        |                      |
 
 ---
 
-### 🎨 User Experience Flow
+## 🔄 Application Workflow
 
 ```text
-👋 Welcome Screen
-      │
-      ▼
-⌨️ Input Validation
-      │
-      ▼
-⏳ Loading Indicator
-      │
-      ▼
-✅ Show Results
-      │
-      ▼
-❌ Error Handling (if needed)
-```
-
----
-
-### 📱 Responsive Design Flow
-
-```text
-📱 Mobile
-   │
-   ▼
-📲 Tablet
-   │
-   ▼
-💻 Desktop
+          🌤️ Weather App
+                 │
+                 ▼
+        🔍 Search City
+                 │
+                 ▼
+        ✅ Validate Input
+                 │
+                 ▼
+     🌐 Fetch Weather Data
+                 │
+        ┌────────┴────────┐
+        ▼                 ▼
+   📊 Display Data     ❌ Show Error
 ```
 
 ---
 
 ## 🛠️ Tech Stack
 
-```text
-⚛️ React.js
-   │
-   ▼
-🎨 CSS3
-   │
-   ▼
-🌐 OpenWeatherMap API
-```
+| Technology            | Purpose      |
+| --------------------- | ------------ |
+| ⚛️ React.js           | Frontend     |
+| 🎨 CSS3               | Styling      |
+| 🌐 OpenWeatherMap API | Weather Data |
 
 ---
 
@@ -89,8 +66,11 @@ This React-powered weather app delivers real-time weather updates for cities wor
 
 ```bash
 git clone <repository-url>
+
 cd Weather-App
+
 npm install
+
 npm start
 ```
 
@@ -106,62 +86,35 @@ REACT_APP_WEATHER_API_KEY=your_api_key
 
 ```text
 Weather-App/
-├── 📁 src/
-│   ├── 📁 components/
-│   ├── 📁 styles/
-│   ├── 📁 utils/
-│   ├── 📄 App.js
-│   └── 📄 index.js
-├── 📁 public/
-├── 📄 .env.example
-├── 📄 package.json
-└── 📄 README.md
+│
+├── src/
+│   ├── components/
+│   ├── styles/
+│   ├── utils/
+│   ├── App.js
+│   └── index.js
+│
+├── public/
+├── .env.example
+├── package.json
+└── README.md
 ```
 
 ---
 
-## 🔄 App Flow
+## 🚀 Future Enhancements
 
-```text
-        🌤️ Launch App
-               │
-               ▼
-        🔍 Enter City
-               │
-               ▼
-        ✅ Validate Input
-               │
-               ▼
-        🌐 Fetch Data
-               │
-        ┌──────▼───────┐
-        │ 📊 Show Results │
-        └──────┬───────┘
-               │
-        ┌──────▼───────┐
-        │ ❌ Error Check │
-        └──────┬───────┘
-               │
-        ┌──────▼───────┐
-        │ ⚠️ Display Error │
-        └──────────────┘
-```
-
----
-
-## 🌟 Future Enhancements
-
-```text
-📅 5-Day Forecast
-⏰ Hourly Updates
-🌙 Dark Mode
-📍 Auto Location
-⭐ Favorite Cities
-🌍 Multi-language
-```
+| Planned Features          |
+| ------------------------- |
+| 📅 5-Day Forecast         |
+| ⏰ Hourly Forecast         |
+| 🌙 Dark Mode              |
+| 📍 Auto Location          |
+| ⭐ Favorite Cities         |
+| 🌍 Multi-language Support |
 
 ---
 
 ## 📜 License
 
-MIT License
+**MIT License**
