@@ -6,17 +6,14 @@
 
 ## 🚀 Overview
 
-A React-based weather application that provides real-time weather information for cities worldwide using the OpenWeatherMap API with a clean, responsive, and user-friendly interface.
+A React-based weather application that provides real-time weather information for cities worldwide using the OpenWeatherMap API. It features a clean interface, responsive design, and fast weather search.
 
 ---
 
 ## 🖼️ Preview
 
-```md id="3tpf2g"
-![Weather App Preview](./preview.png)
-```
+<img width="1919" height="929" alt="Screenshot 2026-06-27 000726" src="https://github.com/user-attachments/assets/57b74cc7-857d-46cb-9d0c-90df37ecbc29" />
 
----
 
 ## ✨ Features
 
@@ -24,24 +21,25 @@ A React-based weather application that provides real-time weather information fo
 * 🌡️ Real-time weather updates
 * 💨 Humidity, Wind & Pressure
 * 📍 City & Country information
+* 🌥️ Weather icons
 * 📱 Fully responsive design
-* ⚡ Loading & Error states
+* ⚡ Loading & error handling
 
 ---
 
 ## 🔄 Workflow
 
-```text id="xwdogv"
-Launch App
-    │
-    ▼
-Search City
-    │
-    ▼
-Fetch Weather Data
-    │
-    ▼
-Display Weather
+```text id="f8lgph"
+🌤️ Open App
+      │
+      ▼
+🔍 Search City
+      │
+      ▼
+🌐 Fetch Weather Data
+      │
+      ▼
+📊 Display Weather
 ```
 
 ---
@@ -56,7 +54,7 @@ Display Weather
 
 ## 🚀 Installation
 
-```bash id="db2wq2"
+```bash id="bwvr8a"
 git clone <repository-url>
 
 cd Weather-App
@@ -68,7 +66,7 @@ npm start
 
 Create a `.env.local` file:
 
-```env id="mwlx1e"
+```env id="v7h4wd"
 REACT_APP_WEATHER_API_KEY=your_api_key
 ```
 
@@ -76,9 +74,14 @@ REACT_APP_WEATHER_API_KEY=your_api_key
 
 ## 📂 Project Structure
 
-```text id="th4zga"
+```text id="8vtc4y"
 Weather-App/
 ├── src/
+│   ├── components/
+│   ├── styles/
+│   ├── utils/
+│   ├── App.js
+│   └── index.js
 ├── public/
 ├── .env.example
 ├── package.json
