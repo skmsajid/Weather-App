@@ -1,60 +1,63 @@
 # 🌤️ Weather App
 
-> **Modern & Responsive Weather Application**
+> **Sleek, Fast & Modern Weather Experience**
 
 ---
 
 ## 🚀 Overview
 
-A React-based weather application that provides real-time weather information for cities worldwide using the OpenWeatherMap API. It features a clean interface, responsive design, and fast weather search.
+A modern React-based weather application delivering real-time weather insights for cities worldwide using the OpenWeatherMap API. Designed with a clean UI, smooth interactions, and responsive performance across all devices.
 
 ---
 
 ## 🖼️ Preview
 
-<img width="1919" height="929" alt="Screenshot 2026-06-27 000726" src="https://github.com/user-attachments/assets/57b74cc7-857d-46cb-9d0c-90df37ecbc29" />
+```md
+![Weather App Preview](./preview.png)
+```
 
+---
 
 ## ✨ Features
 
-* 🔍 Search weather by city
-* 🌡️ Real-time weather updates
-* 💨 Humidity, Wind & Pressure
-* 📍 City & Country information
-* 🌥️ Weather icons
-* 📱 Fully responsive design
-* ⚡ Loading & error handling
+* 🔍 Instant city-based weather search
+* 🌡️ Live temperature & feels-like data
+* 💨 Wind speed, humidity & pressure
+* 📍 Location details (city & country)
+* 🌥️ Dynamic weather icons
+* 📱 Fully responsive & mobile-friendly
+* ⚡ Fast loading with error handling
 
 ---
 
 ## 🔄 Workflow
 
-```text id="f8lgph"
-🌤️ Open App
+```text
+🌤️ Launch App
       │
       ▼
-🔍 Search City
+🔍 Enter City Name
       │
       ▼
-🌐 Fetch Weather Data
+🌐 Fetch API Data
       │
       ▼
-📊 Display Weather
+📊 Display Weather Info
 ```
 
 ---
 
 ## 🛠️ Tech Stack
 
-* React.js
-* CSS3
-* OpenWeatherMap API
+* ⚛️ React.js
+* 🎨 CSS3
+* 🌐 OpenWeatherMap API
 
 ---
 
 ## 🚀 Installation
 
-```bash id="bwvr8a"
+```bash
 git clone <repository-url>
 
 cd Weather-App
@@ -66,7 +69,7 @@ npm start
 
 Create a `.env.local` file:
 
-```env id="v7h4wd"
+```env
 REACT_APP_WEATHER_API_KEY=your_api_key
 ```
 
@@ -74,7 +77,7 @@ REACT_APP_WEATHER_API_KEY=your_api_key
 
 ## 📂 Project Structure
 
-```text id="8vtc4y"
+```text
 Weather-App/
 ├── src/
 │   ├── components/
