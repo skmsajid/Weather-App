@@ -31,11 +31,6 @@ The **Weather App** is a modern React-based application that delivers real-time 
 
 ---
 
-## 🖼️ Preview
-
-<img width="1919" height="929" alt="Screenshot 2026-06-27 000726" src="https://github.com/user-attachments/assets/ad133ace-efb0-41e3-af5f-5cb453ef1b48" />
-
-
 ## ✨ Features
 
 * 🔍 City-based weather search
