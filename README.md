@@ -12,13 +12,21 @@ The **Weather App** is a React-based application that provides real-time weather
 
 ## ✨ Features
 
-* 🔍 Search weather by city
-* 🌡️ Real-time temperature and "feels like"
-* 💨 Wind, humidity, and pressure details
-* 📍 Location-based weather info
-* 🌥️ Dynamic weather icons
-* 📱 Fully responsive design
-* ⚡ Fast loading with error handling
+* 🔍 Search weather by city name
+* 🌡️ Real-time temperature with "feels like" data
+* 💨 Detailed wind speed, humidity, and pressure
+* 📍 Location-based weather detection
+* 🌥️ Dynamic weather icons based on conditions
+* 🌅 Sunrise and sunset timings
+* 🌡️ Min & Max temperature display
+* 🌬️ Wind direction and speed indicators
+* 🌧️ Weather condition descriptions (clear, cloudy, rain, etc.)
+* 📊 Clean and structured weather data layout
+* 📱 Fully responsive design (mobile, tablet, desktop)
+* ⚡ Fast loading with smooth UI transitions
+* ❌ Error handling for invalid city searches
+* 🔄 Instant data refresh on new search
+* 🎯 User-friendly and intuitive interface
 
 ---
 
