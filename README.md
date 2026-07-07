@@ -6,11 +6,11 @@
 
 ## 🚀 Overview
 
-The **Weather App** is a React-based application designed to deliver real-time weather updates for cities worldwide. It combines accurate data from the OpenWeatherMap API with a clean, responsive, and user-friendly interface.
+The **Weather App** is a React-based application that provides real-time weather updates for cities worldwide. It leverages the OpenWeatherMap API to deliver accurate data through a clean, responsive, and user-friendly interface.
 
 ---
 
-## ✨ Key Features
+## ✨ Features
 
 * 🔍 Search weather by city name
 * 🌡️ Real-time temperature with "feels like" data
@@ -21,7 +21,7 @@ The **Weather App** is a React-based application designed to deliver real-time w
 * 🌡️ Min & Max temperature display
 * 🌬️ Wind direction indicators
 * 🌧️ Weather condition descriptions
-* 📊 Structured and clean data layout
+* 📊 Clean and structured data layout
 * 📱 Fully responsive design
 * ⚡ Fast loading and smooth UI
 * ❌ Error handling for invalid searches
@@ -29,7 +29,7 @@ The **Weather App** is a React-based application designed to deliver real-time w
 
 ---
 
-## 🔄 Application Flow
+## 🔄 Workflow
 
 ```text
 🌤️ Launch App
@@ -54,7 +54,7 @@ The **Weather App** is a React-based application designed to deliver real-time w
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Setup
 
 ### Installation
 
@@ -68,7 +68,7 @@ npm install
 npm start
 ```
 
-### Environment Setup
+### Environment Variables
 
 Create a `.env.local` file:
 
