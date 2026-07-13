@@ -6,7 +6,7 @@
 
 ## 🚀 Overview
 
-The **Weather App** is a responsive React-based application that delivers real-time weather updates for cities worldwide. Powered by the OpenWeatherMap API, it provides accurate data through a clean, intuitive, and visually engaging interface.
+The **Weather App** is a responsive React-based application that provides real-time weather updates for cities worldwide. Powered by the OpenWeatherMap API, it delivers accurate data through a clean, intuitive, and visually appealing interface.
 
 ---
 
