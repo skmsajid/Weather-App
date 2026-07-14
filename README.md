@@ -1,38 +1,37 @@
 # 🌤️ Weather App
 
-> **A Fast, Modern, and User-Friendly Weather Application**
+> **A Modern, Responsive Weather Application**
 
 ---
 
 ## 🚀 Overview
 
-The **Weather App** is a responsive React-based application that provides real-time weather updates for cities worldwide. Powered by the OpenWeatherMap API, it delivers accurate data through a clean, intuitive, and visually appealing interface.
+A sleek React-based weather application that delivers real-time weather updates for cities worldwide using the OpenWeatherMap API. Designed with a clean interface and responsive layout for a smooth user experience across all devices.
 
 ---
 
-## ✨ Features
+## 🖼️ Preview
 
-* 🔍 Search weather by city name
-* 🌡️ Real-time temperature with "feels like" data
-* 💨 Wind speed, humidity, and pressure details
-* 📍 Automatic location-based weather detection
-* 🌥️ Dynamic weather condition icons
-* 🌅 Sunrise and sunset timings
-* 🌡️ Minimum and maximum temperature display
-* 🌬️ Wind direction indicators
-* 🌧️ Clear and concise weather descriptions
-* 📊 Well-structured and easy-to-read data
-* 📱 Fully responsive across all devices
-* ⚡ Smooth performance with fast interactions
-* ❌ Error handling for invalid inputs
-* 🔄 Instant updates on new searches
+```md
+![Weather App Preview](./preview.png)
+```
+
+---
+
+## ✨ Highlights
+
+| 🔍 Search       | 🌡️ Live Weather         | 📱 Responsive            |
+| --------------- | ------------------------ | ------------------------ |
+| Search any city | Temperature & Feels Like | Mobile, Tablet & Desktop |
+| Weather details | Humidity, Wind, Pressure | Optimized UI             |
+| Location info   | Dynamic Weather Icons    | Fast & Smooth Experience |
 
 ---
 
 ## 🔄 Workflow
 
 ```text
-🌤️ Launch Application
+🌤️ Launch App
       │
       ▼
 🔍 Enter City Name
@@ -41,36 +40,35 @@ The **Weather App** is a responsive React-based application that provides real-t
 🌐 Fetch Weather Data
       │
       ▼
-📊 Display Weather Information
+📊 Display Weather Details
+      │
+      ▼
+🔄 Search Another City
 ```
 
 ---
 
 ## 🛠️ Tech Stack
 
-* **Frontend:** React.js
-* **Styling:** CSS3
-* **API:** OpenWeatherMap
+```text
+React.js
+│
+├── CSS3
+└── OpenWeatherMap API
+```
 
 ---
 
-## 🚀 Setup
-
-### Installation
+## 🚀 Installation
 
 ```bash
 git clone <repository-url>
-
 cd Weather-App
-
 npm install
-
 npm start
 ```
 
-### Environment Variables
-
-Create a `.env.local` file in the root directory:
+Create a `.env.local` file:
 
 ```env
 REACT_APP_WEATHER_API_KEY=your_api_key
@@ -93,6 +91,17 @@ Weather-App/
 ├── package.json
 └── README.md
 ```
+
+---
+
+## 🚀 Future Enhancements
+
+* 5-Day Weather Forecast
+* Hourly Forecast
+* Dark Mode Support
+* Automatic Location Detection
+* Favorite Cities Feature
+* Multi-language Support
 
 ---
 
