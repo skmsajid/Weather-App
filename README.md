@@ -6,15 +6,7 @@
 
 ## 🚀 Overview
 
-A sleek and user-friendly React-based weather application that delivers real-time weather updates for cities worldwide using the OpenWeatherMap API. Designed with a responsive layout to ensure a smooth experience across all devices.
-
----
-
-## 🖼️ Preview
-
-```md
-![Weather App Preview](./preview.png)
-```
+A sleek and user-friendly React-based weather application that provides real-time weather updates for cities worldwide using the OpenWeatherMap API. Built with a clean interface and responsive design to ensure a seamless experience across all devices.
 
 ---
 
