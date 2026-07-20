@@ -6,20 +6,20 @@
 
 ## 🚀 Overview
 
-A sleek and responsive React application that delivers real-time weather updates for cities worldwide using the **OpenWeatherMap API**. Designed with performance, usability, and a clean interface in mind, it provides a seamless experience across all devices.
+A sleek and responsive React application that provides real-time weather updates for cities around the world using the **OpenWeatherMap API**. Built with a focus on performance, usability, and clean design, it ensures a smooth and intuitive experience across all devices.
 
 ---
 
 ## ✨ Features
 
 ```text
-🔍 Search Weather by City
-🌡️ Real-Time Temperature & Feels Like
-💨 Humidity • Wind Speed • Atmospheric Pressure
-📍 City & Country Details
-🌥️ Dynamic Weather Icons
-⚡ Fast Loading with Reliable Error Handling
-📱 Fully Responsive Design
+🔍 Search weather by city name
+🌡️ Real-time temperature and "feels like" data
+💨 Humidity • Wind speed • Atmospheric pressure
+📍 City and country information
+🌥️ Dynamic weather icons
+⚡ Fast loading with robust error handling
+📱 Fully responsive design
 ```
 
 ---
@@ -95,11 +95,11 @@ Weather-App/
 ## 🚀 Future Enhancements
 
 ```text
-📅 5-Day Weather Forecast
-🌙 Dark Mode Support
-📍 Automatic Location Detection
-⭐ Favorite Cities Feature
-🌍 Multi-language Support
+📅 5-day weather forecast
+🌙 Dark mode support
+📍 Automatic location detection
+⭐ Favorite cities feature
+🌍 Multi-language support
 ```
 
 ---
