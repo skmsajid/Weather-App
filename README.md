@@ -1,26 +1,26 @@
 # 🌤️ Weather App
 
-> **A Clean, Fast & Responsive Web App for Real-Time Weather Updates**
+> **A Fast, Minimal & Responsive Web App for Real-Time Weather Updates**
 
 ---
 
 ## 🚀 Overview
 
-The **Weather App** is a modern React-based application that delivers **real-time weather information for cities worldwide** using the **OpenWeatherMap API**.
+The **Weather App** is a modern React-based application that provides **real-time weather information for cities around the world** using the **OpenWeatherMap API**.
 
-Built with a focus on **simplicity, performance, and user experience**, it provides accurate weather insights through a clean and responsive interface that works seamlessly across all devices.
+Designed with a strong focus on **simplicity, speed, and user experience**, it delivers accurate weather insights through a clean, intuitive, and fully responsive interface that works seamlessly across all devices.
 
 ---
 
 ## ✨ Features
 
 ```text
-🔍 Search any city globally for live weather updates
-🌡️ Real-time temperature with "feels like" information
+🔍 Search any city worldwide for live weather updates
+🌡️ Real-time temperature with "feels like" details
 💨 Displays humidity, wind speed, and atmospheric pressure
 📍 Clear city and country identification
 🌥️ Dynamic weather icons based on current conditions
-⚡ Fast API responses with robust error handling
+⚡ Fast API responses with proper error handling
 📱 Fully responsive design (mobile, tablet, desktop)
 ```
 
@@ -32,19 +32,19 @@ Built with a focus on **simplicity, performance, and user experience**, it provi
               🌤️ Weather App
                      │
                      ▼
-        🔍 User searches for a city
+        🔍 User enters a city name
                      │
                      ▼
-     🌐 Fetch data from OpenWeatherMap API
+     🌐 Fetch weather data from OpenWeatherMap API
                      │
               ┌──────┴──────┐
               │             │
               ▼             ▼
-   📊 Display weather data   ❌ Show error message
+   📊 Display weather details   ❌ Show error message
               │             │
               └──────┬──────┘
                      ▼
-     🔄 User can search again or retry request
+     🔄 User can search again or retry the request
 ```
 
 ---
