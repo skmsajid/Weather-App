@@ -1,161 +1,79 @@
-# 🌍 FixMyVillage
+# 🌤️ Weather App
 
-> **A Smart, Transparent & Efficient Platform for Village Issue Reporting and Management**
+> **A fast, modern, and responsive web application for real-time global weather updates**
 
 ---
 
 ## 🚀 Overview
 
-**FixMyVillage** is a full-stack **MERN-based web application** designed to modernize village-level complaint management. It connects **Villagers**, **Workers**, and **Administrators** on a unified platform to ensure transparent communication, faster issue resolution, and efficient task coordination.
+The **Weather App** is a clean and modern React-based application that provides **real-time weather information for cities around the world** using the **OpenWeatherMap API**.
 
-Each complaint follows a well-defined lifecycle—from submission to final resolution—ensuring accountability, traceability, and a smooth end-to-end workflow.
+Designed with a strong emphasis on **speed, simplicity, and user experience**, it delivers accurate and up-to-date weather insights through an intuitive interface that performs seamlessly across all devices.
 
 ---
 
-## ✨ Key Features
+## ✨ Features
 
 ```text
-👨‍🌾 Villager
-• Secure registration and login
-• Submit complaints with images and detailed descriptions
-• Track real-time complaint status
-• View complete complaint history
-• Receive email notifications on updates
-• Submit feedback after resolution
-
-🛠️ Admin
-• Manage users and workers
-• Review and verify incoming complaints
-• Assign complaints to appropriate workers
-• Monitor progress in real time
-• Manage complaint categories
-• Access reports and feedback insights
-
-👷 Worker
-• View assigned complaints
-• Update work progress status
-• Mark tasks as completed
+🔍 Search any city worldwide for instant weather updates
+🌡️ Real-time temperature with "feels like" comparison
+💨 Detailed weather metrics (humidity, wind speed, pressure)
+📍 Accurate city and country detection
+🌥️ Dynamic weather icons based on live conditions
+⚡ Fast API responses with robust error handling
+📱 Fully responsive design for mobile, tablet, and desktop
 ```
 
 ---
 
-## 🔄 System Workflow
+## 🔄 Application Flow
 
 ```text
-              👤 User Login
-                    │
-                    ▼
-           📝 Submit Complaint
-       (Category • Description • Image)
-                    │
-                    ▼
-          📥 Complaint Registered
-                    │
-                    ▼
-           🛠️ Admin Review
-          ┌─────────┴─────────┐
-          ▼                   ▼
-      ❌ Rejected       ✅ Assigned to Worker
-                              │
-                              ▼
-                    👷 Work in Progress
-                              │
-                              ▼
-                     ✅ Mark as Completed
-                              │
-                              ▼
-                  📧 Email Notification
-                              │
-                              ▼
-                      ⭐ User Feedback
+                🌤️ Weather App
+                       │
+                       ▼
+          🔍 User searches for a city
+                       │
+                       ▼
+   🌐 Fetch weather data from OpenWeatherMap API
+                       │
+                ┌──────┴──────┐
+                │             │
+                ▼             ▼
+ 📊 Display weather details   ❌ Show error message
+                │             │
+                └──────┬──────┘
+                       ▼
+     🔄 User can search again or retry the request
 ```
 
 ---
 
-## 📊 Complaint Lifecycle
+## 🛠️ Technology Stack
 
 ```text
-📝 Pending
-      │
-      ▼
-👷 Assigned
-      │
-      ▼
-🚧 In Progress
-      │
-      ▼
-✅ Completed
-      │
-      ▼
-⭐ Feedback
+Frontend    → React.js
+Styling     → CSS3
+API         → OpenWeatherMap API
 ```
-
----
-
-## 🛠️ Tech Stack
-
-| Layer              | Technologies           |
-| ------------------ | ---------------------- |
-| **Frontend**       | React.js, Tailwind CSS |
-| **Backend**        | Node.js, Express.js    |
-| **Database**       | MongoDB                |
-| **Authentication** | JWT                    |
-| **Services**       | Nodemailer, Cloudinary |
 
 ---
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repository
-
 ```bash
-git clone https://github.com/skmsajid/fixmyvillage.git
-cd fixmyvillage
-```
-
----
-
-### 2. Install Dependencies
-
-```bash
-cd client
+git clone <repository-url>
+cd Weather-App
 npm install
-
-cd ../server
-npm install
-```
-
----
-
-### 3. Configure Environment Variables
-
-Create a `.env` file inside the `server` directory:
-
-```env
-PORT=5000
-MONGO_URI=your_mongodb_url
-JWT_SECRET=your_jwt_secret
-EMAIL_USER=your_email
-EMAIL_PASS=your_email_password
-CLOUDINARY_CLOUD_NAME=your_cloud_name
-CLOUDINARY_API_KEY=your_api_key
-CLOUDINARY_API_SECRET=your_api_secret
-```
-
----
-
-### 4. Run the Application
-
-```bash
-# Start Backend
-cd server
 npm start
 ```
 
-```bash
-# Start Frontend
-cd client
-npm run dev
+### 🔐 Environment Setup
+
+Create a **.env.local** file in the root directory:
+
+```env
+REACT_APP_WEATHER_API_KEY=your_api_key_here
 ```
 
 ---
@@ -163,20 +81,15 @@ npm run dev
 ## 📂 Project Structure
 
 ```text
-FixMyVillage/
-├── client/
-│   ├── src/
+Weather-App/
+├── public/
+├── src/
 │   ├── components/
-│   ├── pages/
-│   └── assets/
-│
-├── server/
-│   ├── config/
-│   ├── controllers/
-│   ├── middleware/
-│   ├── models/
-│   └── routes/
-│
+│   ├── styles/
+│   ├── utils/
+│   ├── App.js
+│   └── index.js
+├── .env.example
 ├── package.json
 └── README.md
 ```
@@ -186,12 +99,12 @@ FixMyVillage/
 ## 🚀 Future Enhancements
 
 ```text
-🤖 AI-based complaint classification
-📍 GPS-based issue location tracking
-📱 Mobile application (Android/iOS)
+📅 5-day weather forecast
+🌙 Dark mode support
+📍 Automatic geolocation-based weather detection
+⭐ Favorite cities feature
 🌍 Multi-language support
-💬 Real-time chat between users and workers
-📊 Advanced analytics dashboard
+📊 Interactive weather analytics with charts
 ```
 
 ---
