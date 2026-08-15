@@ -1,26 +1,26 @@
 # 🌤️ Weather App
 
-> **A fast, modern, and responsive web application for real-time global weather updates**
+> **A clean, fast, and responsive web application for real-time global weather updates**
 
 ---
 
 ## 🚀 Overview
 
-The **Weather App** is a sleek React-based application that provides **real-time weather information for cities across the globe** using the **OpenWeatherMap API**.
+The **Weather App** is a modern React-based application that delivers **real-time weather data for cities worldwide** using the **OpenWeatherMap API**.
 
-Designed with a strong focus on **performance, simplicity, and user experience**, it delivers accurate and up-to-date weather insights through a clean, intuitive interface that works seamlessly on all devices.
+Built with a strong emphasis on **speed, simplicity, and user experience**, it provides accurate and up-to-date weather insights through a minimal, intuitive interface that performs seamlessly across all devices.
 
 ---
 
 ## ✨ Features
 
 ```text
-🔍 Search any city worldwide for instant weather updates
+🔍 Search any city globally for instant weather updates
 🌡️ Real-time temperature with "feels like" comparison
 💨 Detailed weather metrics (humidity, wind speed, pressure)
 📍 Accurate city and country detection
 🌥️ Dynamic weather icons based on live conditions
-⚡ Fast API responses with robust error handling
+⚡ Fast API responses with reliable error handling
 📱 Fully responsive design for mobile, tablet, and desktop
 ```
 
@@ -32,7 +32,7 @@ Designed with a strong focus on **performance, simplicity, and user experience**
                 🌤️ Weather App
                        │
                        ▼
-          🔍 User searches for a city
+          🔍 User enters a city name
                        │
                        ▼
    🌐 Fetch weather data from OpenWeatherMap API
@@ -44,7 +44,7 @@ Designed with a strong focus on **performance, simplicity, and user experience**
                 │             │
                 └──────┬──────┘
                        ▼
-     🔄 User can search again or retry the request
+     🔄 User can search again or retry request
 ```
 
 ---
