@@ -6,9 +6,9 @@
 
 ## 🚀 Overview
 
-The **Weather App** is a sleek and efficient React-based application that delivers **real-time weather information for cities across the globe** using the **OpenWeatherMap API**.
+The **Weather App** is a clean and efficient React-based application that provides **real-time weather data for cities worldwide** using the **OpenWeatherMap API**.
 
-Built with a strong emphasis on **performance, simplicity, and modern UI design**, the application provides accurate and up-to-date weather insights through an intuitive interface that works seamlessly on all devices.
+Designed with a focus on **speed, simplicity, and modern UI/UX**, it delivers accurate weather insights through an intuitive interface that performs seamlessly across all devices.
 
 ---
 
@@ -17,10 +17,10 @@ Built with a strong emphasis on **performance, simplicity, and modern UI design*
 ```text
 🔍 Search any city worldwide for instant weather updates
 🌡️ Real-time temperature with "feels like" comparison
-💨 Detailed weather metrics including humidity, wind speed, and pressure
-📍 Accurate city and country identification
-🌥️ Dynamic weather icons based on live conditions
-⚡ Fast API responses with robust error handling
+💨 Detailed metrics including humidity, wind speed, and atmospheric pressure
+📍 Accurate city and country detection
+🌥️ Dynamic weather icons reflecting live conditions
+⚡ Fast API responses with reliable error handling
 📱 Fully responsive design optimized for mobile, tablet, and desktop
 ```
 
