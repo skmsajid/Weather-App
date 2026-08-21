@@ -1,81 +1,163 @@
-# 🌤️ Weather App
+# 🌍 FixMyVillage
 
-> **A fast, modern, and fully responsive web application for real-time global weather updates**
+> **A Smart, Transparent, and Efficient Platform for Reporting and Resolving Village Issues**
 
 ---
 
 ## 🚀 Overview
 
-The **Weather App** is a clean and lightweight React-based application that delivers **real-time weather data for cities around the world** using the **OpenWeatherMap API**.
+**FixMyVillage** is a full-stack **MERN application** designed to digitize and streamline village-level issue reporting and resolution. The platform connects **Villagers**, **Workers**, and **Administrators** in one centralized system, enabling transparent communication, efficient task management, and faster issue resolution.
 
-Built with a strong focus on **speed, simplicity, and modern UI/UX**, it provides accurate weather insights in a visually appealing and responsive interface that works seamlessly across all devices.
+Every complaint follows a structured, trackable lifecycle—from submission and review to assignment, completion, and feedback—promoting accountability throughout the process.
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
 ```text
-🔍 Search any city worldwide for instant weather updates
-🌡️ Real-time temperature with "feels like" comparison
-💨 Detailed weather metrics: humidity, wind speed, and pressure
-📍 Accurate city and country detection
-🌥️ Dynamic weather icons based on live conditions
-⚡ Fast API responses with proper error handling
-📱 Fully responsive design for mobile, tablet, and desktop
+👨‍🌾 Villager
+• Secure registration and login
+• Submit complaints with detailed descriptions and images
+• Track complaint status in real time
+• View complete complaint history
+• Receive email notifications about status updates
+• Submit feedback after issue resolution
+
+🛠️ Administrator
+• Manage villagers and workers
+• Review and verify submitted complaints
+• Assign complaints to suitable workers
+• Monitor complaint progress
+• Manage complaint categories
+• Review reports and feedback
+
+👷 Worker
+• View assigned complaints
+• Update task progress
+• Mark assigned tasks as completed
 ```
 
 ---
 
-## 🔄 Application Flow
+## 🔄 System Workflow
 
 ```text
-                🌤️ Weather App
-                       │
-                       ▼
-          🔍 User searches for a city
-                       │
-                       ▼
-   🌐 Fetch data from OpenWeatherMap API
-                       │
-                ┌──────┴──────┐
-                │             │
-                ▼             ▼
- 📊 Display weather details   ❌ Show error message
-                │             │
-                └──────┬──────┘
-                       ▼
-     🔄 User can search again or retry request
+              👤 User Login
+                    │
+                    ▼
+           📝 Submit Complaint
+       (Category • Description • Image)
+                    │
+                    ▼
+          📥 Complaint Registered
+                    │
+                    ▼
+           🛠️ Administrator Review
+          ┌─────────┴─────────┐
+          ▼                   ▼
+      ❌ Rejected       ✅ Assigned to Worker
+                              │
+                              ▼
+                    👷 Work in Progress
+                              │
+                              ▼
+                     ✅ Mark as Completed
+                              │
+                              ▼
+                  📧 Email Notification
+                              │
+                              ▼
+                      ⭐ User Feedback
 ```
 
 ---
 
-## 🛠️ Technology Stack
+## 📊 Complaint Lifecycle
 
 ```text
-Frontend    → React.js
-Styling     → CSS3
-API         → OpenWeatherMap API
+📝 Pending
+      │
+      ▼
+👷 Assigned
+      │
+      ▼
+🚧 In Progress
+      │
+      ▼
+✅ Completed
+      │
+      ▼
+⭐ Feedback
 ```
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer              | Technologies           |
+| ------------------ | ---------------------- |
+| **Frontend**       | React.js, Tailwind CSS |
+| **Backend**        | Node.js, Express.js    |
+| **Database**       | MongoDB                |
+| **Authentication** | JSON Web Tokens (JWT)  |
+| **Services**       | Nodemailer, Cloudinary |
 
 ---
 
 ## 🚀 Getting Started
 
+### 1. Clone the Repository
+
 ```bash
-git clone <repository-url>
-cd Weather-App
-npm install
-npm start
+git clone https://github.com/skmsajid/fixmyvillage.git
+cd fixmyvillage
 ```
 
 ---
 
-## 🔐 Environment Setup
+### 2. Install Dependencies
 
-Create a **.env.local** file in the root directory:
+```bash
+cd client
+npm install
+
+cd ../server
+npm install
+```
+
+---
+
+### 3. Configure Environment Variables
+
+Create a `.env` file in the `server` directory:
 
 ```env
-REACT_APP_WEATHER_API_KEY=your_api_key_here
+PORT=5000
+MONGO_URI=your_mongodb_url
+JWT_SECRET=your_jwt_secret
+EMAIL_USER=your_email
+EMAIL_PASS=your_email_password
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECRET=your_api_secret
+```
+
+---
+
+### 4. Run the Application
+
+Start the backend:
+
+```bash
+cd server
+npm start
+```
+
+In a separate terminal, start the frontend:
+
+```bash
+cd client
+npm run dev
 ```
 
 ---
@@ -83,15 +165,20 @@ REACT_APP_WEATHER_API_KEY=your_api_key_here
 ## 📂 Project Structure
 
 ```text
-Weather-App/
-├── public/
-├── src/
+FixMyVillage/
+├── client/
+│   ├── src/
 │   ├── components/
-│   ├── styles/
-│   ├── utils/
-│   ├── App.js
-│   └── index.js
-├── .env.example
+│   ├── pages/
+│   └── assets/
+│
+├── server/
+│   ├── config/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── models/
+│   └── routes/
+│
 ├── package.json
 └── README.md
 ```
@@ -101,12 +188,12 @@ Weather-App/
 ## 🚀 Future Enhancements
 
 ```text
-📅 5-day weather forecast
-🌙 Dark mode support
-📍 Automatic geolocation-based weather detection
-⭐ Favorite cities feature
+🤖 AI-powered complaint classification
+📍 GPS-based issue location tracking
+📱 Dedicated Android and iOS applications
 🌍 Multi-language support
-📊 Interactive weather analytics with charts
+💬 Real-time communication between villagers and workers
+📊 Advanced analytics and reporting dashboard
 ```
 
 ---
