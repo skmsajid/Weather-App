@@ -10,7 +10,7 @@
 - [x] **Welcome State** - Initial welcome screen
 - [x] **API Integration** - OpenWeatherMap API with proper error handling
 
-### Code Quality
+### Code Quality   
 - [x] **Clean Architecture** - Modular component structure
 - [x] **Separation of Concerns** - Utils for API, Constants for config
 - [x] **JSDoc Comments** - All functions documented
