@@ -9,8 +9,8 @@ npm install
 ```
 
 ### Step 2: Get Your API Key
-
-1. Go to [OpenWeatherMap API](https://openweathermap.org/api)
+   
+1. Go to [OpenWeatherMap API]( https://openweathermap.org/api)
 2. Click "Sign Up" and create a free account
 3. Go to your API Keys section
 4. Copy your default API key (it's in the "Default" API key row)
